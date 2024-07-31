@@ -1,0 +1,50 @@
+.contact-me {
+    background: #121212; /* Dark background theme */
+    color: #f5f5f5; /* Light text color for readability */
+    padding: 4rem 2rem; /* Ample padding */
+    border-radius: 12px; /* Rounded corners */
+    max-width: 900px; /* Max width for container */
+    margin: auto; /* Centering the container */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); /* Enhanced shadow effect */
+  }
+  
+  .contact-heading {
+    font-size: 2.5rem; /* Larger heading size */
+    font-weight: 700; /* Bold text */
+    color: #f51b9e; /* Stylish pink color for heading */
+    text-align: center; /* Centered heading */
+    margin-bottom: 2rem; /* Space below heading */
+  }
+  
+  .contact-details {
+    display: grid; /* Grid layout for contact items */
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    gap: 1.5rem; /* Space between items */
+  }
+  
+  .contact-item {
+    background: #1e1e1e; /* Slightly lighter background for items */
+    padding: 1.5rem; /* Padding for items */
+    border-radius: 8px; /* Rounded corners */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Vertical alignment */
+    color: #f5f5f5; /* Light text color */
+    border: 2px solid #ff1493; /* Pink border for visual appeal */
+  }
+  
+  .contact-item a {
+    color: #ff1493; /* Pink color for links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+  }
+  
+  .contact-item a:hover {
+    color: #ff1493; /* Lighter pink on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .contact-item strong {
+    font-weight: 600; /* Bold text for labels */
+    margin-bottom: 0.5rem; /* Space below label */
+  }
+  

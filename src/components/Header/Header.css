@@ -1,0 +1,25 @@
+.navbar-brand {
+    font-size: 2rem; /* Larger font size */
+    font-weight: 700; /* Bold text */
+    color: #ff69b4; /* Pinkish color */
+    background-color: #343a40; /* Dark background */
+    padding: 0.5rem 1rem; /* Padding */
+    border-radius: 8px; /* Rounded corners */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center alignment */
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar-brand:hover {
+    color: #ffffff; /* Light color on hover */
+    background-color: #495057; /* Darker background on hover */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Stronger shadow on hover */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .navbar-brand::before {
+    content: '🌟'; /* Icon or emoji before text */
+    margin-right: 0.5rem; /* Space between icon and text */
+  }
+  

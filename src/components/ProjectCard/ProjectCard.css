@@ -1,0 +1,86 @@
+/* Style for the entire card */
+.card {
+  height: 350px; /* Fixed height */
+  border-radius: 10px; /* Rounded corners */
+  border: 2px solid #ff69b4; /* Pinkish border */
+  background-color: #0f0f10; /* Dark background */
+  box-shadow: 0 10px 10px rgb(217, 88, 165); /* Shadow effect */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  display: flex;
+  flex-direction: column;
+  color:white;
+}
+
+/* Hover effect */
+.card:hover {
+  border-color: #ff1493; /* Darker pink border on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Enhanced shadow on hover */
+}
+
+/* Card body styling */
+.card-body {
+  background-color: #0c0e11; /* Dark background for card body */
+  padding: 1rem; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column;
+  flex: 1; /* Allow the card body to grow */
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white; /* Light text color for the title */
+  margin-bottom: 1rem; /* Space below the title */
+}
+
+/* Card text styling */
+.card-text {
+  font-size: 1rem;
+  color: #ced4da; /* Light text color for the description */
+  flex: 1; /* Allow text to take available space */
+}
+
+/* Image styling */
+.project-image {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0; /* Space around the image */
+  border-radius: 5px; /* Rounded corners for the image */
+  object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+/* Button container styling */
+.button-container {
+  margin-top: auto; /* Push buttons to the bottom */
+  display: flex;
+  justify-content: space-between; /* Space between buttons */
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007bff; /* Background color for primary button */
+  border: none; /* Remove border */
+  color: white; /* Text color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
+.btn-secondary {
+  background-color: #6c757d; /* Background color for secondary button */
+  border: none; /* Remove border */
+  color: white; /* Text color */
+}
+
+.btn-secondary:hover {
+  background-color: #040607; /* Darker background on hover */
+}
+
+/*  styling for responsiveness */
+@media (max-width: 576px) {
+  .card {
+    width: 100%; /* Full width on smaller screens */
+  }
+}

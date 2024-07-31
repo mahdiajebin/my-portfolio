@@ -1,0 +1,121 @@
+
+
+  .text-color{
+    color:white
+  }
+  .about-me-container {
+    padding: 0;
+  }
+  
+  .intro-section {
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .extra-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+  
+  .extra-content.visible {
+    max-height: 1000px; /* Adjust as needed */
+    transition: max-height 0.5s ease-out;
+  }
+  
+  .about__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10rem;
+    padding: 2rem; /* Adjust padding as needed */
+  }
+  
+  .about__content-main,
+  .about__content-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about__content-title {
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about__content-details-para {
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skills__skill {
+    padding: 1rem 2rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.0rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+  }
+  
+  .btn--med {
+    padding: 0.5rem 1rem;
+  }
+  
+  .btn--theme {
+    background-color: #007bff; 
+    color: white;
+  }
+  
+  .dynamicBgClr {
+    background-color: #007bff; 
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .about__content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .intro-section {
+      height: auto;
+      padding: 2rem;
+    }
+  
+    .about__content-title {
+      font-size: 2.2rem;
+    }
+  
+    .about__content {
+      padding: 1rem;
+    }
+  
+    .skills__skill {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .about__content-title {
+      font-size: 1.8rem;
+    }
+  
+    .skills__skill {
+      font-size: 1.2rem;
+      padding: 0.8rem 1.5rem;
+    }
+  }
+  

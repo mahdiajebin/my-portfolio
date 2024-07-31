@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white; /* Default text color white */
+  background-color: rgb(198, 177, 177); /* Set background to black */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App Container */
+.app {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh; /* Ensure the app takes up the full height of the viewport */
+  background-color: black; /* Set background to black */
+  width: 100%;
+  text-align: center;
+  color:#f51b9e
 }
 
-.App-link {
-  color: #61dafb;
+/* Header */
+header {
+  background: #333; /* Dark background for header */
+  color: #f51b9e; /* Ensure header text is white */
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Main Content */
+main {
+  padding: 20px;
+  color: white; /* Ensure main content text is white */
+}
+
+/* Project Card */
+.project-card {
+  border: 1px solid #444; /* Slightly lighter border for better contrast */
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+  background-color: #222; /* Dark background for project cards */
+  color: white; /* Ensure project card text is white */
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #1e90ff; /* Bright link color for visibility */
+}
+
+/* Footer */
+.app-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333; /* Dark background for footer */
+  color: white; /* Ensure footer text is white */
+  font-size: 0.9rem;
+  width: 100%;
+  flex-shrink: 0; /* Prevent footer from shrinking */
 }
