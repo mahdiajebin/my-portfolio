@@ -18,8 +18,9 @@ const AboutMe = () => {
         <h2 className="display-5 fw-bold text-color mb-5">HI, I'M MAHDIA JEBIN</h2>
         <div className="col-lg-8 mx-auto">
           <p className="lead mb-4">
-            I am a <strong>Frontend Focused Web Developer</strong> with a passion for building and managing the front-end of websites and web applications. My goal is to contribute to the success of the overall product. You can check out some of my work in the <strong>Projects</strong> section.
+            I am a <strong>Frontend Focused Web Developer</strong> with a passion for building and managing the front-end of websites and web applications. You can check out some of my work in the <strong>Projects</strong> section.
           </p>
+          <p className="lead mb-4"> I'm actively seeking job opportunities where I can leverage my skills, contribute to projects, and grow professionally. If you have an opportunity that aligns with my expertise, please don't hesitate to <strong>contact me</strong>.</p>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <button type="button" className="btn btn-primary btn-lg px-4 gap-3" onClick={handleSeeMore}>
               See More
@@ -33,12 +34,8 @@ const AboutMe = () => {
         <div className="about__content">
           <div className="about__content-main">
             <h3 className="about__content-title">Get to Know Me!</h3>
-            <p className="about__content-details-para">
-              I'm a <strong>Frontend Focused Web Developer</strong> with a passion for building and managing the front-end of websites and web applications. My goal is to contribute to the success of the overall product. You can check out some of my work in the <strong>Projects</strong> section.
-            </p>
-            <p className="about__content-details-para">
-              I'm actively seeking <strong>job opportunities</strong> where I can leverage my skills, contribute to projects, and grow professionally. If you have an opportunity that aligns with my expertise, please don't hesitate to <strong>contact</strong> me.
-            </p>
+          
+            <p> As a passionate and dedicated software engineer, I am committed to leveraging my expertise in [Angular, AngularJS,JavaScript, TypeScript Java, Spring Boot, React.js] to create innovative and efficient software solutions. With a strong background in backend development and a keen eye for front-end design, I have successfully contributed to various projects, delivering high-quality code and enhancing user experiences. My goal is to continuously grow and adapt in the dynamic field of software engineering, taking on challenging projects that allow me to utilize my skills and knowledge to their fullest potential. I am eager to join a forward-thinking company where I can collaborate with a talented team to drive impactful results and contribute to the organization's succes</p>
             <a href="#contact" className="btn btn--med btn--theme dynamicBgClr">Contact</a>
           </div>
           <div className="about__content-skills">

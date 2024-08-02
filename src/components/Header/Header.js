@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark text-primary">
       <div className="container-fluid text-primary">
-        <NavLink exact to="/" className="navbar-brand" > MJ </NavLink>
+        <NavLink exact to="/" className="navbar-brand" > &lt;M/J&gt;</NavLink>
         <button
           className="navbar-toggler "
           type="button"

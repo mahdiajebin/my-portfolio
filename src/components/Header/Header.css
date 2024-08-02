@@ -3,7 +3,7 @@
     font-weight: 700; /* Bold text */
     color: #ff69b4; /* Pinkish color */
     background-color: #343a40; /* Dark background */
-    padding: 0.5rem 1rem; /* Padding */
+    padding: 0.5rem 1rem; 
     border-radius: 8px; /* Rounded corners */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect */
     display: flex; /* Flexbox for alignment */
@@ -19,7 +19,7 @@
   }
   
   .navbar-brand::before {
-    content: '🌟'; /* Icon or emoji before text */
+    content: '💻'; 
     margin-right: 0.5rem; /* Space between icon and text */
   }
   

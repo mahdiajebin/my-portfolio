@@ -1,6 +1,6 @@
 /* Style for the entire card */
 .card {
-  height: 350px; /* Fixed height */
+  height: 380px; /* Fixed height */
   border-radius: 10px; /* Rounded corners */
   border: 2px solid #ff69b4; /* Pinkish border */
   background-color: #0f0f10; /* Dark background */
@@ -44,10 +44,10 @@
 /* Image styling */
 .project-image {
   width: 100%;
-  height: auto;
+  height: 140px; /* Fixed height */
   margin: 1rem 0; /* Space around the image */
   border-radius: 5px; /* Rounded corners for the image */
-  object-fit: cover; /* Maintain aspect ratio and cover the area */
+  object-fit:cover; /* Maintain aspect ratio and cover the area */
 }
 
 /* Button container styling */
