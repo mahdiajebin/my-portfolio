@@ -8,7 +8,7 @@ import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
 const App = () => {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <div className="app">
         <Header />
         <Routes>
