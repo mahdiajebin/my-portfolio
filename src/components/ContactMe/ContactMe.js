@@ -20,7 +20,7 @@ const ContactMe = () => {
         </div>
         <div className="contact-item">
           <strong>Resume:</strong>
-          <a href="/assets/Resume/Portfolio_ResumeMJ.pdf" target="_blank" rel="noopener noreferrer">View my resume</a>
+          <a href={`${process.env.PUBLIC_URL}/asset/Resume/Portfolio_ResumeMJ.pdf`} target="_blank" rel="noopener noreferrer">View my resume</a>
         </div>
       </div>
     </section>
