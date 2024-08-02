@@ -19,32 +19,32 @@ const projects = [
     images: ['/assets/ClumsyProofPics/pic1.png', '/assets/ClumsyProofPics/pic2.png','/assets/ClumsyProofPics/pic3.png','/assets/ClumsyProofPics/pic4.png'], 
   },
   {
-    title: 'Grocer',
-    description: 'A project demonstrating data structures and algorithms in Java.',
+    title: 'Angular Project',
+    description: 'in Progress. Adding soon',
     imageUrl:'/assets/image1.jpeg', 
 
     link: 'https://github.com/mahdiajebin/grocer',
     images: ['link-to-image1', 'link-to-image2']
   },
   {
-    title: 'React Class',
-    description: 'A project showcasing React skills and user interfaces.',
+    title: 'Springboot Project',
+    description: 'in Progress. Adding soon',
     imageUrl:'/assets/image1.jpeg', 
 
     link: 'https://github.com/mahdiajebin/ReactClass',
     images: ['link-to-image1', 'link-to-image2'], 
   },
   {
-    title: 'JavaDSA',
-    description: 'A project demonstrating data structures and algorithms in Java.',
+    title: 'Java Project',
+    description: 'in Progress. Adding soon',
     imageUrl:'/assets/image1.jpeg', 
 
     link: 'https://github.com/mahdiajebin/JavaDSA',
     images: ['link-to-image1', 'link-to-image2'], 
   },
   {
-    title: 'JavaDSA',
-    description: 'A project demonstrating data structures and algorithms in Java.',
+    title: 'Angular Project',
+    description: 'in Progress. Adding soon',
     imageUrl:'/assets/image1.jpeg', 
 
     link: 'https://github.com/mahdiajebin/JavaDSA',

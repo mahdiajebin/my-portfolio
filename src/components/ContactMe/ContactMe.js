@@ -18,6 +18,10 @@ const ContactMe = () => {
           <strong>GitHub:</strong>
           <a href="https://github.com/mahdiajebin" target="_blank" rel="noopener noreferrer">mahdiajebin</a>
         </div>
+        <div className="contact-item">
+          <strong>Resume:</strong>
+          <a href="/assets/Resume/Portfolio_ResumeMJ.pdf" target="_blank" rel="noopener noreferrer">View my resume</a>
+        </div>
       </div>
     </section>
   );

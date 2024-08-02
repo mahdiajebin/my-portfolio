@@ -5,7 +5,7 @@ import './App.css';
 import AboutMe from './components/AboutMe/AboutMe';
 import Projects from './components/Projects/Projects';
 import ContactMe from './components/ContactMe/ContactMe';
-
+import Footer from './components/Footer/Footer';
 const App = () => {
   return (
     <Router>
@@ -19,10 +19,11 @@ const App = () => {
           {/* Other routes if needed */}
         </Routes>
       </div>
-      <footer className="app-footer">
+      {/* <footer className="app-footer">
           <p>© Copyright {new Date().getFullYear()}. Made by Mahdia Jebin</p>
         
-        </footer>
+        </footer> */}
+              <Footer />
     </Router>
     
   );

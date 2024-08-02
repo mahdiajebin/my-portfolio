@@ -1,21 +1,13 @@
 import React from 'react';
-import './Footer.css'; 
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer id="footer" className="footer">
+    <footer className="app-footer">
       <div className="footer-content">
-        <div className="footer-col">
-          <p className="footer-text">2024 © All Rights Reserved</p>
-        </div>
-        <div className="footer-col">
-          <h3 className="footer-heading">Contact Information</h3>
-          <ul className="footer-list">
-            <li className="footer-item"><strong>Email:</strong> mahdiajebin.dev@gmail.com</li>
-          </ul>
-        </div>
+        <p>© Copyright {new Date().getFullYear()}. Made by Mahdia Jebin</p>
+        <p><strong>Email:</strong> <a href="mailto:mahdiajebin.dev@gmail.com">mahdiajebin.dev@gmail.com</a></p>
       </div>
-      <div className="footer-backdrop"></div>
     </footer>
   );
 };
