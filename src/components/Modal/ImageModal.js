@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ImageModal.css'; // Create this CSS file for styling
+import './ImageModal.css'; 
 
 const ImageModal = ({ show, handleClose, title, images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
