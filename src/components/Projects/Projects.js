@@ -2,63 +2,60 @@ import React from 'react';
 import ProjectCard from '../ProjectCard/ProjectCard';
 import { Container, Row, Col } from 'react-bootstrap';
 
+const PUBLIC_URL = process.env.PUBLIC_URL;
+
 const projects = [
   {
     title: 'My-Deen',
     description: 'A project demonstrating React Skills and Creativity. Project in Progress...',
-    imageUrl:'/assets/MyDeenPics/pic0.png', 
+    imageUrl: `${PUBLIC_URL}/assets/MyDeenPics/pic0.png`,
     link: 'https://github.com/mahdiajebin/my-deen',
-    images: ['/assets/MyDeenPics/pic0.png', '/assets/MyDeenPics/pic1.png','/assets/MyDeenPics/pic2.png'], 
+    images: [`${PUBLIC_URL}/assets/MyDeenPics/pic0.png`, `${PUBLIC_URL}/assets/MyDeenPics/pic1.png`, `${PUBLIC_URL}/assets/MyDeenPics/pic2.png`],
   },
   {
     title: 'ClumsyProof',
     description: 'A project showcasing .net skills and user interfaces.',
-    imageUrl:'/assets/ClumsyProofPics/pic1.png', 
-
+    imageUrl: `${PUBLIC_URL}/assets/ClumsyProofPics/pic1.png`,
     link: 'https://github.com/mahdiajebin/ClumsyProofVB.net',
-    images: ['/assets/ClumsyProofPics/pic1.png', '/assets/ClumsyProofPics/pic2.png','/assets/ClumsyProofPics/pic3.png','/assets/ClumsyProofPics/pic4.png'], 
+    images: [`${PUBLIC_URL}/assets/ClumsyProofPics/pic1.png`, `${PUBLIC_URL}/assets/ClumsyProofPics/pic2.png`, `${PUBLIC_URL}/assets/ClumsyProofPics/pic3.png`, `${PUBLIC_URL}/assets/ClumsyProofPics/pic4.png`],
   },
   {
     title: 'Angular Project',
     description: 'in Progress. Adding soon',
-    imageUrl:'/assets/image1.jpeg', 
-
+    imageUrl: `${PUBLIC_URL}/assets/image1.jpeg`,
     link: 'https://github.com/mahdiajebin/grocer',
     images: ['link-to-image1', 'link-to-image2']
   },
   {
     title: 'Springboot Project',
     description: 'in Progress. Adding soon',
-    imageUrl:'/assets/image1.jpeg', 
-
+    imageUrl: `${PUBLIC_URL}/assets/image1.jpeg`,
     link: 'https://github.com/mahdiajebin/ReactClass',
-    images: ['link-to-image1', 'link-to-image2'], 
+    images: ['link-to-image1', 'link-to-image2'],
   },
   {
     title: 'Java Project',
     description: 'in Progress. Adding soon',
-    imageUrl:'/assets/image1.jpeg', 
-
+    imageUrl: `${PUBLIC_URL}/assets/image1.jpeg`,
     link: 'https://github.com/mahdiajebin/JavaDSA',
-    images: ['link-to-image1', 'link-to-image2'], 
+    images: ['link-to-image1', 'link-to-image2'],
   },
   {
     title: 'Angular Project',
     description: 'in Progress. Adding soon',
-    imageUrl:'/assets/image1.jpeg', 
-
+    imageUrl: `${PUBLIC_URL}/assets/image1.jpeg`,
     link: 'https://github.com/mahdiajebin/JavaDSA',
-    images: ['./Assets/project-mockup-example.jpeg', 'link-to-image2'], 
+    images: ['./Assets/project-mockup-example.jpeg', 'link-to-image2'],
   }
 ];
 
 const Projects = () => (
   <Container className="my-5">
-    <div id="projects" className='mb-6'>
+    <div id="projects" className="mb-6 text-center">
       <h1>PROJECTS</h1>
-      <Row>
+      <Row className="justify-content-center">
         {projects.map((project, index) => (
-          <Col key={index} sm={12} md={6} lg={4}>
+          <Col key={index} xs={12} sm={6} md={4} lg={4} className="d-flex justify-content-center mb-4">
             <ProjectCard 
               title={project.title}
               description={project.description}

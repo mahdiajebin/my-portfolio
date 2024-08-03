@@ -19,3 +19,24 @@ html, body {
   font-size: 0.9rem;
   width: 100%;
 }
+
+.footer-content {
+  padding: 0 1rem; /* Padding to avoid content touching the edges */
+}
+
+.footer-content a {
+  color: #ff1493; /* Stylish pink color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-content a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive adjustments for footer if needed */
+@media (max-width: 768px) {
+  .app-footer {
+    font-size: 0.8rem;
+    padding: 8px;
+  }
+}
